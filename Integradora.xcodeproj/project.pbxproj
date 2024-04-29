@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		881633612BBDDAD70060D62F /* InicioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881633602BBDDAD60060D62F /* InicioViewController.swift */; };
+		881633632BBDE0B60060D62F /* creditosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881633622BBDE0B60060D62F /* creditosViewController.swift */; };
+		88A30A4E2BBDD1270096E264 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88A30A4D2BBDD1270096E264 /* LoginViewController.swift */; };
+		88CFF4872BC0739F00B890A2 /* verificarcodigoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF4862BC0739F00B890A2 /* verificarcodigoViewController.swift */; };
+		88CFF4892BC09B2000B890A2 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CFF4882BC09B2000B890A2 /* CuentaViewController.swift */; };
+		AB63C5F82BB333D9006892AF /* bx-home.svg in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5E62BB333D9006892AF /* bx-home.svg */; };
+		AB63C5F92BB333D9006892AF /* barrera.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5E72BB333D9006892AF /* barrera.png */; };
+		AB63C5FA2BB333D9006892AF /* usuario-de-perfil.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5E82BB333D9006892AF /* usuario-de-perfil.png */; };
+		AB63C5FB2BB333D9006892AF /* auto.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5E92BB333D9006892AF /* auto.png */; };
+		AB63C5FC2BB333D9006892AF /* sensor-ultrasonico.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5EA2BB333D9006892AF /* sensor-ultrasonico.png */; };
+		AB63C5FD2BB333D9006892AF /* ttruck3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5EB2BB333D9006892AF /* ttruck3.jpg */; };
+		AB63C5FE2BB333D9006892AF /* detector-de-humo.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5EC2BB333D9006892AF /* detector-de-humo.png */; };
+		AB63C5FF2BB333D9006892AF /* sensor-de-velocidad.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5ED2BB333D9006892AF /* sensor-de-velocidad.png */; };
+		AB63C6002BB333D9006892AF /* inclinacion.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5EE2BB333D9006892AF /* inclinacion.png */; };
+		AB63C6012BB333D9006892AF /* PROYECTOTRUCK.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5EF2BB333D9006892AF /* PROYECTOTRUCK.jpg */; };
+		AB63C6022BB333D9006892AF /* amigos.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F02BB333D9006892AF /* amigos.png */; };
+		AB63C6032BB333D9006892AF /* TecnoTruck.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F12BB333D9006892AF /* TecnoTruck.png */; };
+		AB63C6042BB333D9006892AF /* humedad.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F22BB333D9006892AF /* humedad.png */; };
+		AB63C6052BB333D9006892AF /* sensor (3).png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F32BB333D9006892AF /* sensor (3).png */; };
+		AB63C6062BB333D9006892AF /* sensor-de-luz.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F42BB333D9006892AF /* sensor-de-luz.png */; };
+		AB63C6072BB333D9006892AF /* TRUCK1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F52BB333D9006892AF /* TRUCK1.jpg */; };
+		AB63C6082BB333D9006892AF /* sensor (4).png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F62BB333D9006892AF /* sensor (4).png */; };
+		AB63C6092BB333D9006892AF /* truck2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB63C5F72BB333D9006892AF /* truck2.jpg */; };
+		AB63C60C2BB333E9006892AF /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C60B2BB333E9006892AF /* image.png */; };
+		AB63C60F2BB33435006892AF /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB63C60E2BB33435006892AF /* SplashController.swift */; };
+		AB63C6122BB33B11006892AF /* logoanimation.png in Resources */ = {isa = PBXBuildFile; fileRef = AB63C6112BB33B11006892AF /* logoanimation.png */; };
+		D8DB4DA52BA0DFB80098B855 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB4DA42BA0DFB80098B855 /* AppDelegate.swift */; };
+		D8DB4DA72BA0DFB80098B855 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB4DA62BA0DFB80098B855 /* SceneDelegate.swift */; };
+		D8DB4DA92BA0DFB80098B855 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DB4DA82BA0DFB80098B855 /* ViewController.swift */; };
+		D8DB4DAC2BA0DFB80098B855 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DB4DAA2BA0DFB80098B855 /* Main.storyboard */; };
+		D8DB4DAE2BA0DFD00098B855 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DB4DAD2BA0DFD00098B855 /* Assets.xcassets */; };
+		D8DB4DB12BA0DFD00098B855 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DB4DAF2BA0DFD00098B855 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		881633602BBDDAD60060D62F /* InicioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicioViewController.swift; sourceTree = "<group>"; };
+		881633622BBDE0B60060D62F /* creditosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = creditosViewController.swift; sourceTree = "<group>"; };
+		88A30A4D2BBDD1270096E264 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		88CFF4862BC0739F00B890A2 /* verificarcodigoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = verificarcodigoViewController.swift; sourceTree = "<group>"; };
+		88CFF4882BC09B2000B890A2 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		AB63C5E62BB333D9006892AF /* bx-home.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "bx-home.svg"; sourceTree = "<group>"; };
+		AB63C5E72BB333D9006892AF /* barrera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barrera.png; sourceTree = "<group>"; };
+		AB63C5E82BB333D9006892AF /* usuario-de-perfil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "usuario-de-perfil.png"; sourceTree = "<group>"; };
+		AB63C5E92BB333D9006892AF /* auto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auto.png; sourceTree = "<group>"; };
+		AB63C5EA2BB333D9006892AF /* sensor-ultrasonico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor-ultrasonico.png"; sourceTree = "<group>"; };
+		AB63C5EB2BB333D9006892AF /* ttruck3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ttruck3.jpg; sourceTree = "<group>"; };
+		AB63C5EC2BB333D9006892AF /* detector-de-humo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "detector-de-humo.png"; sourceTree = "<group>"; };
+		AB63C5ED2BB333D9006892AF /* sensor-de-velocidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor-de-velocidad.png"; sourceTree = "<group>"; };
+		AB63C5EE2BB333D9006892AF /* inclinacion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inclinacion.png; sourceTree = "<group>"; };
+		AB63C5EF2BB333D9006892AF /* PROYECTOTRUCK.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PROYECTOTRUCK.jpg; sourceTree = "<group>"; };
+		AB63C5F02BB333D9006892AF /* amigos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = amigos.png; sourceTree = "<group>"; };
+		AB63C5F12BB333D9006892AF /* TecnoTruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TecnoTruck.png; sourceTree = "<group>"; };
+		AB63C5F22BB333D9006892AF /* humedad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = humedad.png; sourceTree = "<group>"; };
+		AB63C5F32BB333D9006892AF /* sensor (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor (3).png"; sourceTree = "<group>"; };
+		AB63C5F42BB333D9006892AF /* sensor-de-luz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor-de-luz.png"; sourceTree = "<group>"; };
+		AB63C5F52BB333D9006892AF /* TRUCK1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TRUCK1.jpg; sourceTree = "<group>"; };
+		AB63C5F62BB333D9006892AF /* sensor (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sensor (4).png"; sourceTree = "<group>"; };
+		AB63C5F72BB333D9006892AF /* truck2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = truck2.jpg; sourceTree = "<group>"; };
+		AB63C60B2BB333E9006892AF /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		AB63C60E2BB33435006892AF /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		AB63C6112BB33B11006892AF /* logoanimation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logoanimation.png; sourceTree = "<group>"; };
+		D8DB4DA12BA0DFB80098B855 /* Integradora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Integradora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DB4DA42BA0DFB80098B855 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D8DB4DA62BA0DFB80098B855 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D8DB4DA82BA0DFB80098B855 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8DB4DAB2BA0DFB80098B855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8DB4DAD2BA0DFD00098B855 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8DB4DB02BA0DFD00098B855 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D8DB4DB22BA0DFD00098B855 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8DB4D9E2BA0DFB80098B855 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB63C5E52BB333D9006892AF /* FOTOS TECNO */ = {
+			isa = PBXGroup;
+			children = (
+				AB63C5E62BB333D9006892AF /* bx-home.svg */,
+				AB63C5E72BB333D9006892AF /* barrera.png */,
+				AB63C6112BB33B11006892AF /* logoanimation.png */,
+				AB63C60B2BB333E9006892AF /* image.png */,
+				AB63C5E82BB333D9006892AF /* usuario-de-perfil.png */,
+				AB63C5E92BB333D9006892AF /* auto.png */,
+				AB63C5EA2BB333D9006892AF /* sensor-ultrasonico.png */,
+				AB63C5EB2BB333D9006892AF /* ttruck3.jpg */,
+				AB63C5EC2BB333D9006892AF /* detector-de-humo.png */,
+				AB63C5ED2BB333D9006892AF /* sensor-de-velocidad.png */,
+				AB63C5EE2BB333D9006892AF /* inclinacion.png */,
+				AB63C5EF2BB333D9006892AF /* PROYECTOTRUCK.jpg */,
+				AB63C5F02BB333D9006892AF /* amigos.png */,
+				AB63C5F12BB333D9006892AF /* TecnoTruck.png */,
+				AB63C5F22BB333D9006892AF /* humedad.png */,
+				AB63C5F32BB333D9006892AF /* sensor (3).png */,
+				AB63C5F42BB333D9006892AF /* sensor-de-luz.png */,
+				AB63C5F52BB333D9006892AF /* TRUCK1.jpg */,
+				AB63C5F62BB333D9006892AF /* sensor (4).png */,
+				AB63C5F72BB333D9006892AF /* truck2.jpg */,
+			);
+			path = "FOTOS TECNO";
+			sourceTree = "<group>";
+		};
+		D8DB4D982BA0DFB70098B855 = {
+			isa = PBXGroup;
+			children = (
+				D8DB4DA32BA0DFB80098B855 /* Integradora */,
+				D8DB4DA22BA0DFB80098B855 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8DB4DA22BA0DFB80098B855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8DB4DA12BA0DFB80098B855 /* Integradora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8DB4DA32BA0DFB80098B855 /* Integradora */ = {
+			isa = PBXGroup;
+			children = (
+				AB63C5E52BB333D9006892AF /* FOTOS TECNO */,
+				D8DB4DA42BA0DFB80098B855 /* AppDelegate.swift */,
+				88CFF4862BC0739F00B890A2 /* verificarcodigoViewController.swift */,
+				881633622BBDE0B60060D62F /* creditosViewController.swift */,
+				D8DB4DA62BA0DFB80098B855 /* SceneDelegate.swift */,
+				D8DB4DA82BA0DFB80098B855 /* ViewController.swift */,
+				AB63C60E2BB33435006892AF /* SplashController.swift */,
+				D8DB4DAA2BA0DFB80098B855 /* Main.storyboard */,
+				D8DB4DAD2BA0DFD00098B855 /* Assets.xcassets */,
+				D8DB4DAF2BA0DFD00098B855 /* LaunchScreen.storyboard */,
+				D8DB4DB22BA0DFD00098B855 /* Info.plist */,
+				88A30A4D2BBDD1270096E264 /* LoginViewController.swift */,
+				881633602BBDDAD60060D62F /* InicioViewController.swift */,
+				88CFF4882BC09B2000B890A2 /* CuentaViewController.swift */,
+			);
+			path = Integradora;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8DB4DA02BA0DFB80098B855 /* Integradora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8DB4DB52BA0DFD00098B855 /* Build configuration list for PBXNativeTarget "Integradora" */;
+			buildPhases = (
+				D8DB4D9D2BA0DFB80098B855 /* Sources */,
+				D8DB4D9E2BA0DFB80098B855 /* Frameworks */,
+				D8DB4D9F2BA0DFB80098B855 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Integradora;
+			productName = Integradora;
+			productReference = D8DB4DA12BA0DFB80098B855 /* Integradora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8DB4D992BA0DFB70098B855 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D8DB4DA02BA0DFB80098B855 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = D8DB4D9C2BA0DFB70098B855 /* Build configuration list for PBXProject "Integradora" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8DB4D982BA0DFB70098B855;
+			productRefGroup = D8DB4DA22BA0DFB80098B855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8DB4DA02BA0DFB80098B855 /* Integradora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8DB4D9F2BA0DFB80098B855 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8DB4DB12BA0DFD00098B855 /* LaunchScreen.storyboard in Resources */,
+				AB63C60C2BB333E9006892AF /* image.png in Resources */,
+				AB63C5FD2BB333D9006892AF /* ttruck3.jpg in Resources */,
+				AB63C5FF2BB333D9006892AF /* sensor-de-velocidad.png in Resources */,
+				AB63C5F92BB333D9006892AF /* barrera.png in Resources */,
+				AB63C5F82BB333D9006892AF /* bx-home.svg in Resources */,
+				AB63C5FC2BB333D9006892AF /* sensor-ultrasonico.png in Resources */,
+				AB63C6042BB333D9006892AF /* humedad.png in Resources */,
+				AB63C5FA2BB333D9006892AF /* usuario-de-perfil.png in Resources */,
+				AB63C6082BB333D9006892AF /* sensor (4).png in Resources */,
+				D8DB4DAE2BA0DFD00098B855 /* Assets.xcassets in Resources */,
+				AB63C5FE2BB333D9006892AF /* detector-de-humo.png in Resources */,
+				AB63C6062BB333D9006892AF /* sensor-de-luz.png in Resources */,
+				AB63C6002BB333D9006892AF /* inclinacion.png in Resources */,
+				AB63C6032BB333D9006892AF /* TecnoTruck.png in Resources */,
+				AB63C6012BB333D9006892AF /* PROYECTOTRUCK.jpg in Resources */,
+				AB63C5FB2BB333D9006892AF /* auto.png in Resources */,
+				AB63C6092BB333D9006892AF /* truck2.jpg in Resources */,
+				AB63C6122BB33B11006892AF /* logoanimation.png in Resources */,
+				AB63C6072BB333D9006892AF /* TRUCK1.jpg in Resources */,
+				AB63C6052BB333D9006892AF /* sensor (3).png in Resources */,
+				D8DB4DAC2BA0DFB80098B855 /* Main.storyboard in Resources */,
+				AB63C6022BB333D9006892AF /* amigos.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8DB4D9D2BA0DFB80098B855 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88CFF4892BC09B2000B890A2 /* CuentaViewController.swift in Sources */,
+				AB63C60F2BB33435006892AF /* SplashController.swift in Sources */,
+				881633612BBDDAD70060D62F /* InicioViewController.swift in Sources */,
+				D8DB4DA92BA0DFB80098B855 /* ViewController.swift in Sources */,
+				D8DB4DA52BA0DFB80098B855 /* AppDelegate.swift in Sources */,
+				88A30A4E2BBDD1270096E264 /* LoginViewController.swift in Sources */,
+				88CFF4872BC0739F00B890A2 /* verificarcodigoViewController.swift in Sources */,
+				881633632BBDE0B60060D62F /* creditosViewController.swift in Sources */,
+				D8DB4DA72BA0DFB80098B855 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8DB4DAA2BA0DFB80098B855 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DB4DAB2BA0DFB80098B855 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8DB4DAF2BA0DFD00098B855 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8DB4DB02BA0DFD00098B855 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8DB4DB32BA0DFD00098B855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8DB4DB42BA0DFD00098B855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8DB4DB62BA0DFD00098B855 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Integradora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTT.Integradora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8DB4DB72BA0DFD00098B855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Integradora/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = UTT.Integradora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8DB4D9C2BA0DFB70098B855 /* Build configuration list for PBXProject "Integradora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB4DB32BA0DFD00098B855 /* Debug */,
+				D8DB4DB42BA0DFD00098B855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8DB4DB52BA0DFD00098B855 /* Build configuration list for PBXNativeTarget "Integradora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8DB4DB62BA0DFD00098B855 /* Debug */,
+				D8DB4DB72BA0DFD00098B855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8DB4D992BA0DFB70098B855 /* Project object */;
+}
